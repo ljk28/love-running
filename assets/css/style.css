@@ -51,7 +51,7 @@ nav {
 }
 
 /* Nav toggle */
-#nav-toggle: checked ~ nav {
+#nav-toggle:checked~nav {
     display: block;
 }
 
@@ -112,4 +112,22 @@ footer {
     .nav-toggle-label {
         display: none;
     }
+    #logo {
+        font-size: 280%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+    /* main content */
+    main {
+        /*push main content down to make room for header*/
+        margin-top: 79px;
+
+    }
 }
+/* Large devices (laptops and desktops, 992px and up) */
+    @media screen and (min-width: 992px) {
+        #menu a:hover {
+            border-bottom: 1px solid #3a3a3a;
+        }
+        
+    }
