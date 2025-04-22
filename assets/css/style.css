@@ -92,6 +92,7 @@ main {
     text-align: center;
     padding: 20px 0;
     display: flex;
+    flex-direction: row;
     justify-content: space-evenly;
     list-style-type: none;
 
