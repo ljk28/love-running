@@ -17,7 +17,7 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
-h1 {
+h1, h2, h3 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -93,6 +93,7 @@ main {
     height: 600px;
     width: 100%;
     background: url("../images/hero-image.webp") no-repeat center center/cover;
+    position: relative;
 }
 /* footer */
 #social-networks {
@@ -110,6 +111,21 @@ main {
     color: #3a3a3a;
 }
 
+#cover-text {
+    background-color: rgba(241, 109, 107, .7);
+    font-size: 130%;
+    position: absolute;
+    bottom: 30px;
+    width: 80%;
+    min-height: 200px;
+    padding-top: 40px;
+    padding-left: 10px;
+
+}
+
+#cover-text > h2, #cover-text > h3 {
+    color: #ffffff;
+} 
 /* Media query: tablets and larger 768px and up */
 @media screen and (min-width: 768px) {
     /* header */
@@ -140,6 +156,12 @@ main {
         /*push main content down to make room for header*/
         margin-top: 79px;
 
+    }
+
+    /* hero section */
+    #cover-text {
+        width: 300px;
+        right: 50px;
     }
 }
 /* Large devices (laptops and desktops, 992px and up) */
