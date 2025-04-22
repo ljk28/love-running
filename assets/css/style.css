@@ -121,6 +121,23 @@ hr {
     background: url("../images/hero-image.webp") no-repeat center center/cover;
     position: relative;
 }
+
+#circle-cover-bg {
+    background-image: url('../images/reasons-image.webp'); no-repeat top center / cover;
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 20px;
+    /* makes square a circle */
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#benefits-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 /* footer */
 #social-networks {
     text-align: center;
