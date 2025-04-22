@@ -2,8 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200..700&display=swap');
 /* asteriks wildcard selector to override default styles added by the browser */
 * {
-    margin: 0;
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
 
@@ -92,7 +92,6 @@ main {
     text-align: center;
     padding: 20px 0;
     display: flex;
-    flex-direction: row;
     justify-content: space-evenly;
     list-style-type: none;
 
